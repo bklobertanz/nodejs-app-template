@@ -53,6 +53,26 @@ $ yarn
 
 [Back to the Top](#table-of-contents)
 
+### Testing
+
+For testing:
+
+```
+$ yarn test
+```
+
+For checking test coverage:
+
+```
+$ yarn test:cov
+```
+
+For entering watch mode:
+
+```
+$ yarn test:watch
+```
+
 ---
 
 ## Credits
