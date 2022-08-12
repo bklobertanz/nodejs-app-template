@@ -1,17 +1,16 @@
-# Nodejs basic web-app template
+# TDD practice: implementing and applying data structures
 
 ## Table of Contents
 
-- [Nodejs basic web-app template](#nodejs-basic-web-app-template)
-  - [Table of Contents](#table-of-contents)
-  - [Project description](#project-description)
-    - [Technologies](#technologies)
-    - [TO-DO](#to-do)
-  - [How to use the project](#how-to-use-the-project)
-    - [Installation](#installation)
-    - [Requirements and considerations](#requirements-and-considerations)
-  - [Credits](#credits)
-  - [License](#license)
+- [Project description](#project-description)
+  - [Technologies](#technologies)
+  - [TO-DO](#to-do)
+- [How to use the project](#how-to-use-the-project)
+  - [Installation](#installation)
+  - [Starting](#Starting)
+  - [Requirements and considerations](#requirements-and-considerations)
+- [Credits](#credits)
+- [License](#license)
 
 ---
 
@@ -40,13 +39,19 @@
 
 ### Installation
 
+
 Simply do:
 
 ```
 $ yarn
 
 ```
+### Starting
 
+```
+$ yarn start
+
+```
 ### Requirements and considerations
 
 > Add a .env file at the root of the folder structure.
