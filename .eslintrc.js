@@ -18,6 +18,7 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     'no-shadow': 'off',
-    'import/extensions': 'off'
+    'import/extensions': 'off',
+    'no-use-before-define': 'warn'
   }
 }
