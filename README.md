@@ -34,7 +34,7 @@
 - You need yarn installed.
 - For using environment variables (dotenv): 
 
-> Add a .env file in root directory.
+> Add a .env file in the root of the directory.
 
 ### Installation
 
