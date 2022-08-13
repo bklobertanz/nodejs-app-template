@@ -3,7 +3,7 @@
   "author": "Barís Klobertanz",
   "version": "1.0.0",
   "main": "index.ts",
-  "description": "node.js code base. Includes: typescript support (static typing), eslint(linter) working with prettier(code formatter) and husky (pre-commit hook)",
+  "description": "Basic starter template using Nodejs and Typescript, includes: typescript support (static typing), eslint(linter) working with prettier(code formatter) and husky (pre-commit hook)",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.5.1",
