@@ -1,35 +1,27 @@
-# TDD practice: implementing and applying data structures
-
+# Basic starter template using Nodejs and Typescript
 ## Table of Contents
 
 - [Project description](#project-description)
   - [Technologies](#technologies)
-  - [TO-DO](#to-do)
 - [How to use the project](#how-to-use-the-project)
   - [Installation](#installation)
   - [Starting](#Starting)
   - [Requirements and considerations](#requirements-and-considerations)
-- [Credits](#credits)
 - [License](#license)
 
 ---
 
 ## Project description
 
-> Basic nodejs app code scaffolding.
+> Basic starter template using Nodejs, Typescript and Jest.
 
 ### Technologies
 
-- Typescript
-- Eslint and prettier (working together)
-- Husky (pre-commit hook)
-- Jest
-
-[Back to the Top](#table-of-contents)
-
-### TO-DO
-
-- [ ] Add eslint rules.
+- Typescript for static typing.
+- Eslint enforcing airbnb-base code styling.
+- Prettier as a code formatter (working with eslint).
+- Pre-commit hook, using husky, to force linting.
+- Jest.
 
 [Back to the Top](#table-of-contents)
 
@@ -37,30 +29,35 @@
 
 ## How to use the project
 
-### Installation
-
-
-Simply do:
-
-```
-$ yarn
-
-```
-### Starting
-
-```
-$ yarn start
-
-```
 ### Requirements and considerations
 
-> Add a .env file at the root of the folder structure.
+- You need yarn installed.
+- For using environment variables (dotenv): 
 
-[Back to the Top](#table-of-contents)
+> Add a .env file in root directory.
+
+### Installation
+
+```
+$ yarn && yarn prepare
+```
+
+`yarn prepare` will install git hooks and husky.
+
+### Starting up
+
+
+For creating a build (./dist folder) and starting the app:
+```
+$ yarn start
+```
+
+For running the app using ts-node and nodemon:
+```
+$ yarn start:dev
+```
 
 ### Testing
-
-For testing:
 
 ```
 $ yarn test
@@ -80,12 +77,9 @@ $ yarn test:watch
 
 ---
 
-## Credits
-
----
-
+[Back to the Top](#table-of-contents)
 ## License
 
-> To be determined...
+> MIT
 
 [Back to the Top](#table-of-contents)
